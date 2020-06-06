@@ -1,6 +1,6 @@
 # Stem cells segmentation and tracking on videos via Detectron2
 
-<img width="400px" src="gif_and_stuff/A2_25_maxLost4.gif">
+<img width="600px" src="gif_and_stuff/A2_25_maxLost4.gif">
 
 There are images (frames) with mesenchymal stem cells (MSC). There is a need to track individual cells and analyse the dinamics of their movements on videos (cell migration analysis).
 
@@ -23,9 +23,12 @@ There are images (frames) with mesenchymal stem cells (MSC). There is a need to 
 - Pytorch 1.5
 - **Detectron2** 0.1.3
 
-
-## Training on Google Colaboratory (GPU, Tesla P100)
+Training on Google Colaboratory (GPU, Tesla P100)
 
 ## Metrics
 
 <img src="gif_and_stuff/scores.png">
+
+## Good predictions and errors
+
+<img src="gif_and_stuff/predictions_and_errors.png">
